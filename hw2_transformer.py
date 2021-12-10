@@ -1,5 +1,9 @@
 import torch
+# TODO: look into using GPU?
 device = 'cpu'
+
+max_src_sentence_len = 10242
+max_dst_sentence_len = 10000
 
 import math, collections.abc, random, copy
 
@@ -69,10 +73,11 @@ def read_parallel(filename):
     lines = iter(f)
     for src_line in lines:
         tgt_line = next(lines)
-        src_words = src_line.split('\t') + ['<EOS>']
-        tgt_words = tgt_line.split() + ['<EOS>']
-        next(lines) # remove next blank line 
-        data.append((fwords, ewords))
+
+        src_words = src_line.replace('\t', ' <EOL> ').split() + ['<EOS>'] # add line end delimiters
+        # for bad baseline data, ignore other stories
+        tgt_words = reduce(lambda words, line: words + line.split(), tgt_line.split('\t')[:-6], []) + ['<EOS>']
+        data.append((src_words, tgt_words))
     f.close()
     return data
 
@@ -83,9 +88,9 @@ def read_mono(filename):
     Returns: list of lists of strings. <EOS> is appended to each sentence.
     """
     data = []
-    for line in open(filename):
-        words = line.split('\t') + ['<EOS>']
-        data.append(words)
+    for src_line in open(filename):
+        src_words = src_line.replace('\t', ' <EOL> ').split() + ['<EOS>'] # add line end delimiters
+        data.append(src_words)
     return data
     
 class Encoder(torch.nn.Module):
@@ -100,12 +105,13 @@ class Encoder(torch.nn.Module):
         # Position embedding
         #   - Same as word embedding, but without normalization
         #   - Taking hint from epos, fpos in model 2 to use logit matrix straight up and not accept the normalization done in Embedding
-        self.fpos = torch.nn.Parameter(torch.empty(100, dims))
+        # TODO: make max src length inputable?
+        self.fpos = torch.nn.Parameter(torch.empty(max_src_sentence_len, dims))
         torch.nn.init.normal_(self.fpos, std=0.01)
 
         # Self attention layers
-        self.self_attention_layers = [SelfAttention(dims) for i in range(layers)]
-        self.tanh_layers = [TanhLayer(dims, dims, True) for i in range(layers)]
+        self.self_attention_layers = torch.nn.ModuleList([SelfAttention(dims) for i in range(layers)])
+        self.tanh_layers = torch.nn.ModuleList([TanhLayer(dims, dims, True) for i in range(layers)])
 
     def forward(self, fnums):
         """Encode a Chinese sentence.
@@ -134,12 +140,13 @@ class Decoder(torch.nn.Module):
         # Position embedding
         #   - Same as word embedding, but without normalization
         #   - Taking hint from epos, fpos in model 2 to use logit matrix straight up and not accept the normalization done in Embedding
-        self.epos = torch.nn.Parameter(torch.empty(100, dims))
+        # TODO: make max tgt length inputable?
+        self.epos = torch.nn.Parameter(torch.empty(max_dst_sentence_len, dims))
         torch.nn.init.normal_(self.epos, std=0.01)
 
         # Self attention layers
-        self.self_attention_layers = [SelfAttention(dims) for i in range(layers)]
-        self.tanh_layers = [TanhLayer(dims, dims, True) for i in range(layers)]
+        self.self_attention_layers = torch.nn.ModuleList([SelfAttention(dims) for i in range(layers)])
+        self.tanh_layers = torch.nn.ModuleList([TanhLayer(dims, dims, True) for i in range(layers)])
 
         # Final output layer
         self.final_tanh = TanhLayer(2*dims, dims) # input: concat(c, g_prime) (3.72)
@@ -227,7 +234,7 @@ class Model(torch.nn.Module):
         
         # Try smaller # of layers as recommended due to small data size
         self.encoder = Encoder(len(fvocab), dims, layers=2)
-        self.decoder = Decoder(dims, len(evocab), layers=1)
+        self.decoder = Decoder(dims, len(evocab), layers=2)
 
         # This is just so we know what device to create new tensors on        
         self.dummy = torch.nn.Parameter(torch.empty(0))
@@ -267,7 +274,7 @@ class Model(torch.nn.Module):
         fencs = self.encoder(fnums)
         state = self.decoder.start(fencs)
         ewords = []
-        for i in range(100):
+        for i in range(max_dst_sentence_len):
             o = self.decoder.output(state)
             enum = torch.argmax(o).item()
             eword = self.evocab.denumberize(enum)
@@ -298,6 +305,7 @@ if __name__ == "__main__":
             fvocab |= fwords
             evocab |= ewords
 
+        # TODO: make dimensions inputable?
         # Create model
         m = Model(fvocab, 64, evocab) # try increasing 64 to 128 or 256
         
@@ -324,7 +332,8 @@ if __name__ == "__main__":
         sys.exit()
 
     if args.train:
-        opt = torch.optim.Adam(m.parameters(), lr=0.0003)
+        #opt = torch.optim.Adam(m.parameters(), lr=0.0003)
+        opt = torch.optim.Adam(m.parameters(), lr=0.001)
 
         best_dev_loss = None
         for epoch in range(10):
