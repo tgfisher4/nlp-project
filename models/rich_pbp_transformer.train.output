@@ -1,0 +1,111 @@
+Using cuda
+A 's edge A 's
+Cubs ' Maddux wins first start
+Cards ' Williams wins first start
+Bonds , Giants rally past Brewers
+Cards ' Oswalt wins in 12th
+Phillies ' Phils ' offense , Pirates end skid
+Cubs ' Burnett wins first start
+A 's rough up A 's
+Phillies ' Oswalt wins first start
+Giants ' Bonds ' win in win over Padres
+[1] train_loss=1215921.626382351 train_ppl=37.07501643519531 dev_ppl=25.904060973730804
+Mariners ' Hudson dominates A 's to win
+Cubs ' bats , Mets blank Cubs
+Cards ' bats , Brewers beat Brewers
+Bonds hits 2 HRs , Giants beat Brewers
+Astros ' Clemens wins 15th
+Phillies ' Willis , Pirates beat Phillies
+Cubs ' Maddux wins third straight
+A 's continue with win
+Phillies ' bats in 10th lifts Braves
+Bonds hits 2 HRs , Giants rout Padres
+[2] train_loss=1036402.2435393333 train_ppl=21.748096937002867 dev_ppl=22.78787621917943
+Mariners ' Hudson shuts down A 's
+Cubs ' Maddux wins debut
+Brewers ' offense , but win in ninth
+Bonds hits slam , two HRs help Giants beat Brewers
+Astros ' 12 - inning rally in 12th
+Phillies rout Pirates to snap four - game skid
+Reds ' Lee wins first game
+A 's end Angels ' win streak
+Braves win in 10 innings , beat Phillies
+Bonds hits two HRs , Giants rout of Padres
+[3] train_loss=983065.6023039818 train_ppl=18.56065071639143 dev_ppl=21.2027889760087
+Mariners ' Hudson shuts down A 's
+Mets ' pen blanks Cubs for first win
+Cards ' Mulder wins first in AL West
+Bonds hits 2 HRs , but Giants beat Brewers
+Astros ' Pujols ' hit in 11th , beat Cards
+Phillies ' bats , but Pirates rout Phillies
+Reds ' Griffey hits first HR , but Reds win
+Angels ' road woes continue to win
+Phillies rally in 10th to beat Braves in 10
+Bonds hits 2 HRs , Giants rout Padres
+[4] train_loss=949137.8657093048 train_ppl=16.78074669562119 dev_ppl=20.766909323373113
+Mariners ' Hudson shuts out A 's
+Mets ' pen perfect at plate , lose to Cubs
+Pujols hits 2 HRs , Cards beat Brewers
+Bonds hits 2 HRs , Giants beat Brewers
+Astros ' offense helps Cardinals beat Cards
+Phillies rout Pirates
+Reds ' four - run seventh lifts Cubs past Reds
+A 's get rare win as Angels top A 's
+Phillies rally for in 10th , beat Braves in 10
+Bonds hits 2 HRs , Giants rout White Sox
+[5] train_loss=924847.1939177513 train_ppl=15.612249332562941 dev_ppl=20.595749678933593
+Mariners ' Hudson shuts down A 's
+Mets ' Santana wins again , but win in loss to Cubs
+Cards rally past Brewers , but lose to Brewers
+Bonds hits 2 HRs , Giants beat Brewers
+Astros win in 12 innings
+Phillies ' Millwood wins again as Pirates rout Phils
+Reds ' Griffey hits two HRs in win over Cubs
+A 's win in ninth to lift A 's past Angels
+Phillies rally past Braves in 10th
+Giants win sixth straight
+[6] train_loss=904716.3027248383 train_ppl=14.705765891336398 dev_ppl=20.740616415086865
+Mariners ' Hudson wins third straight start
+Mets ' bats help end losing streak at home
+Brewers ' offense helps end Cards ' win streak
+Bonds homers twice as Giants beat Brewers
+Astros ' five - hit shutout in 12 innings
+Phillies ' five - hit three in rout of Pirates
+Reds ' four - hit shutout of Cubs
+A 's win third straight , beat Angels
+Phillies ' six - run seventh inning lifts Braves
+Bonds hits No . 16 , Giants rout Padres
+[7] train_loss=886748.8320431709 train_ppl=13.94124614116272 dev_ppl=20.520382055562866
+Mariners ' Hudson wins third straight , A 's win
+Mets ' Lee wins third straight , but Mets win
+Cards rally to beat Brewers , end skid
+Bonds hits two HRs , but Giants rally
+Astros ' Williams , Astros edge Cards in 12
+Phillies rally to beat Pirates , end skid
+Reds ' pen blows save in loss to Cubs
+A 's rally to win over Angels
+Phils rally to beat Braves in 10
+Bonds hits two HRs , but Giants lose to Padres
+[8] train_loss=871398.4258675575 train_ppl=13.319647232842392 dev_ppl=20.56735979419379
+Mariners ' Hudson tosses 1 - hitter
+Mets ' pen tosses one - hitter
+Cardinals rally to beat Brewers
+Bonds hits two HRs , but Giants lose to Brewers
+Pujols , Pujols homer in 12th to lift Cards
+Phillies ' Buehrle wins first , but Phils lose to Pirates
+Griffey hits two HRs , Reds beat Cubs
+A 's win sixth straight , snap skid
+Phillies ' Lee wins again , Braves win in 10
+Bonds hits No . 17 , but Giants lose to Padres
+[9] train_loss=858414.777440548 train_ppl=12.81557285867576 dev_ppl=20.603289653474068
+Mariners ' Hudson wins first game
+Mets ' pen blows save , but lose to Cubs
+Cards ' Perez wins first since ' 14
+Bonds hits two HRs as Giants beat Brewers
+Pujols ' two - run HR in 12th lifts Cards
+Tigers ' offense helps snap 7 - game skid
+Reds ' pen blows save , but Cubs lose to Cubs
+A - Rod 's homer helps A 's top Angels
+Phils ' bats in 10th lifts Braves past Phillies
+Bonds hits grand slam , but Padres rout Giants
+[10] train_loss=845879.7376666069 train_ppl=12.347022242094074 dev_ppl=20.525863652346704
