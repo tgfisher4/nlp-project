@@ -1,0 +1,936 @@
+Anaheim Angels at Kansas City Royals on 20030831 had no headline/recap available, skipping...
+[20030831] Key players not in expected location
+{
+  "date": "2003-08-31T18:05Z",
+  "uid": "s:1~l:10~e:230831207",
+  "name": "Anaheim Angels at Kansas City Royals",
+  "competitions": [
+    {
+      "date": "2003-08-31T18:05Z",
+      "venue": {
+        "address": {
+          "city": "Kansas City",
+          "state": "Missouri"
+        },
+        "fullName": "Kauffman Stadium",
+        "indoor": true,
+        "id": "7",
+        "capacity": 37903
+      },
+      "conferenceCompetition": false,
+      "notes": [],
+      "timeValid": true,
+      "geoBroadcasts": [],
+      "broadcasts": [],
+      "type": {
+        "id": "18",
+        "abbreviation": "EXH"
+      },
+      "uid": "s:1~l:10~e:230831207~c:230831207",
+      "competitors": [
+        {
+          "records": [
+            {
+              "summary": "70-65",
+              "name": "YTD",
+              "abbreviation": "Game",
+              "type": "total"
+            },
+            {
+              "summary": "37-33",
+              "name": "Home",
+              "type": "home"
+            },
+            {
+              "summary": "33-32",
+              "name": "Road",
+              "type": "road"
+            }
+          ],
+          "team": {
+            "shortDisplayName": "Royals",
+            "uid": "s:1~l:10~t:7",
+            "alternateColor": "7ab2dd",
+            "color": "003b72",
+            "displayName": "Kansas City Royals",
+            "name": "Royals",
+            "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
+            "location": "Kansas City",
+            "links": [
+              {
+                "isExternal": false,
+                "rel": [
+                  "clubhouse",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/_/name/kc/kansas-city-royals",
+                "text": "Clubhouse",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "roster",
+                  "desktop",
+                  "team"
+                ],
+                "href": "http://www.espn.com/mlb/team/roster/_/name/kc/kansas-city-royals",
+                "text": "Roster",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "team"
+                ],
+                "href": "http://www.espn.com/mlb/team/stats/_/name/kc/kansas-city-royals",
+                "text": "Statistics",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "schedule",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/schedule/_/name/kc",
+                "text": "Schedule",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "photos",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/photos/_/name/kc",
+                "text": "photos",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "scores",
+                  "sportscenter",
+                  "app",
+                  "team"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:7&section=scores",
+                "text": "Scores",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "transactions",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/transactions/_/name/kc",
+                "text": "Transactions",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "injuries",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/injuries/_/name/kc",
+                "text": "Injuries",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "depthchart",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/depth/_/name/kc",
+                "text": "Depth Chart",
+                "isPremium": false
+              }
+            ],
+            "id": "7",
+            "abbreviation": "KC",
+            "isActive": true
+          },
+          "type": "team",
+          "probables": [
+            {
+              "shortDisplayName": "Starter",
+              "athlete": {
+                "displayName": "Brian Anderson",
+                "jersey": "17",
+                "fullName": "Brian Anderson",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/mlb/player/_/id/2994"
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/stats/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "splits",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/splits/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "gamelog",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/gamelog/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "news",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/news/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "bio",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/bio/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "overview",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/_/id/2994/brian-anderson"
+                  },
+                  {
+                    "rel": [
+                      "batvspitch",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/batvspitch/_/id/2994/brian-anderson"
+                  }
+                ],
+                "id": "2994",
+                "position": "SP",
+                "team": {
+                  "id": "7"
+                },
+                "shortName": "B. Anderson"
+              },
+              "displayName": "Probable Starting Pitcher",
+              "name": "probableStartingPitcher",
+              "abbreviation": "SP",
+              "playerId": 2994,
+              "statistics": [
+                {
+                  "displayValue": "0",
+                  "name": "hits",
+                  "abbreviation": "H"
+                },
+                {
+                  "displayValue": "0",
+                  "name": "runs",
+                  "abbreviation": "R"
+                },
+                {
+                  "displayValue": ".000",
+                  "name": "avg",
+                  "abbreviation": "AVG"
+                },
+                {
+                  "displayValue": "0",
+                  "name": "saves",
+                  "abbreviation": "SV"
+                },
+                {
+                  "displayValue": "11",
+                  "name": "losses",
+                  "abbreviation": "L"
+                },
+                {
+                  "displayValue": "14",
+                  "name": "wins",
+                  "abbreviation": "W"
+                },
+                {
+                  "displayValue": "3.78",
+                  "name": "ERA",
+                  "abbreviation": "ERA"
+                },
+                {
+                  "displayValue": "2",
+                  "name": "errors",
+                  "abbreviation": "E"
+                }
+              ]
+            }
+          ],
+          "hits": 10,
+          "uid": "s:1~l:10~t:7",
+          "homeAway": "home",
+          "score": "4",
+          "winner": false,
+          "id": "7",
+          "linescores": [
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 1
+            }
+          ],
+          "errors": 1,
+          "order": 0,
+          "statistics": []
+        },
+        {
+          "records": [
+            {
+              "summary": "67-70",
+              "name": "YTD",
+              "abbreviation": "Game",
+              "type": "total"
+            },
+            {
+              "summary": "38-31",
+              "name": "Home",
+              "type": "home"
+            },
+            {
+              "summary": "29-39",
+              "name": "Road",
+              "type": "road"
+            }
+          ],
+          "team": {
+            "shortDisplayName": "Angels",
+            "uid": "s:1~l:10~t:3",
+            "alternateColor": "862633",
+            "color": "a50017",
+            "displayName": "Anaheim Angels",
+            "name": "Angels",
+            "location": "Anaheim",
+            "links": [
+              {
+                "isExternal": false,
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "team"
+                ],
+                "href": "http://www.espn.com/mlb/team/stats/_/name/ana/anaheim-angels",
+                "text": "Statistics",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "transactions",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/transactions/_/name/ana",
+                "text": "Transactions",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "injuries",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/injuries/_/name/ana",
+                "text": "Injuries",
+                "isPremium": false
+              },
+              {
+                "isExternal": false,
+                "rel": [
+                  "depthchart",
+                  "desktop",
+                  "team"
+                ],
+                "href": "https://www.espn.com/mlb/team/depth/_/name/ana",
+                "text": "Depth Chart",
+                "isPremium": false
+              }
+            ],
+            "id": "3",
+            "abbreviation": "ANA",
+            "isActive": false
+          },
+          "type": "team",
+          "probables": [
+            {
+              "shortDisplayName": "Starter",
+              "athlete": {
+                "displayName": "John Lackey",
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5203.png",
+                "jersey": "41",
+                "fullName": "John Lackey",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/mlb/player/_/id/5203"
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/stats/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "splits",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/splits/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "gamelog",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/gamelog/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "news",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/news/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "bio",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/bio/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "overview",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/_/id/5203/john-lackey"
+                  },
+                  {
+                    "rel": [
+                      "batvspitch",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "http://www.espn.com/mlb/player/batvspitch/_/id/5203/john-lackey"
+                  }
+                ],
+                "id": "5203",
+                "position": "SP",
+                "team": {
+                  "id": "3"
+                },
+                "shortName": "J. Lackey"
+              },
+              "displayName": "Probable Starting Pitcher",
+              "name": "probableStartingPitcher",
+              "abbreviation": "SP",
+              "playerId": 5203,
+              "statistics": [
+                {
+                  "displayValue": "0",
+                  "name": "hits",
+                  "abbreviation": "H"
+                },
+                {
+                  "displayValue": "0",
+                  "name": "runs",
+                  "abbreviation": "R"
+                },
+                {
+                  "displayValue": ".000",
+                  "name": "avg",
+                  "abbreviation": "AVG"
+                },
+                {
+                  "displayValue": "0",
+                  "name": "saves",
+                  "abbreviation": "SV"
+                },
+                {
+                  "displayValue": "16",
+                  "name": "losses",
+                  "abbreviation": "L"
+                },
+                {
+                  "displayValue": "10",
+                  "name": "wins",
+                  "abbreviation": "W"
+                },
+                {
+                  "displayValue": "4.63",
+                  "name": "ERA",
+                  "abbreviation": "ERA"
+                },
+                {
+                  "displayValue": "3",
+                  "name": "errors",
+                  "abbreviation": "E"
+                }
+              ]
+            }
+          ],
+          "hits": 10,
+          "uid": "s:1~l:10~t:3",
+          "homeAway": "away",
+          "score": "7",
+          "winner": true,
+          "id": "3",
+          "linescores": [
+            {
+              "value": 0
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            }
+          ],
+          "errors": 0,
+          "order": 1,
+          "statistics": []
+        }
+      ],
+      "wasSuspended": false,
+      "headlines": [
+        {
+          "description": "Scott Spiezio and Garret Anderson each homered and drove in two runs, leading the Angels past Kansas City 7-4 in the first game of a doubleheader.",
+          "type": "Recap",
+          "shortLinkText": "Angels beat Royals once; nightcap rained out"
+        }
+      ],
+      "id": "230831207",
+      "neutralSite": false,
+      "recent": false,
+      "attendance": 21324,
+      "startDate": "2003-08-31T18:05Z",
+      "status": {
+        "period": 9,
+        "displayClock": "0:00",
+        "clock": 0,
+        "type": {
+          "name": "STATUS_FINAL",
+          "description": "Final",
+          "id": "3",
+          "state": "post",
+          "completed": true,
+          "detail": "Final",
+          "shortDetail": "Final"
+        },
+        "featuredAthletes": [
+          {
+            "shortDisplayName": "Win",
+            "athlete": {
+              "displayName": "Scot Shields",
+              "jersey": "62",
+              "fullName": "Scot Shields",
+              "links": [
+                {
+                  "rel": [
+                    "playercard",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "https://www.espn.com/mlb/player/_/id/4722"
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/stats/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "splits",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/splits/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "gamelog",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/gamelog/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "news",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/news/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "bio",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/bio/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "overview",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/_/id/4722/scot-shields"
+                },
+                {
+                  "rel": [
+                    "batvspitch",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/batvspitch/_/id/4722/scot-shields"
+                }
+              ],
+              "id": "4722",
+              "position": "RP",
+              "team": {
+                "id": "3"
+              },
+              "shortName": "S. Shields"
+            },
+            "displayName": "Winning Pitcher",
+            "name": "winningPitcher",
+            "team": {
+              "id": "3"
+            },
+            "abbreviation": "WP",
+            "playerId": 4722
+          },
+          {
+            "shortDisplayName": "Loss",
+            "athlete": {
+              "displayName": "Brian Anderson",
+              "jersey": "17",
+              "fullName": "Brian Anderson",
+              "links": [
+                {
+                  "rel": [
+                    "playercard",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "https://www.espn.com/mlb/player/_/id/2994"
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/stats/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "splits",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/splits/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "gamelog",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/gamelog/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "news",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/news/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "bio",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/bio/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "overview",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/_/id/2994/brian-anderson"
+                },
+                {
+                  "rel": [
+                    "batvspitch",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/batvspitch/_/id/2994/brian-anderson"
+                }
+              ],
+              "id": "2994",
+              "position": "SP",
+              "team": {
+                "id": "7"
+              },
+              "shortName": "B. Anderson"
+            },
+            "displayName": "Losing Pitcher",
+            "name": "losingPitcher",
+            "team": {
+              "id": "7"
+            },
+            "abbreviation": "LP",
+            "playerId": 2994
+          },
+          {
+            "shortDisplayName": "Save",
+            "athlete": {
+              "displayName": "Troy Percival",
+              "jersey": "40",
+              "fullName": "Troy Percival",
+              "links": [
+                {
+                  "rel": [
+                    "playercard",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "https://www.espn.com/mlb/player/_/id/3155"
+                },
+                {
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/stats/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "splits",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/splits/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "gamelog",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/gamelog/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "news",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/news/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "bio",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/bio/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "overview",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/_/id/3155/troy-percival"
+                },
+                {
+                  "rel": [
+                    "batvspitch",
+                    "desktop",
+                    "athlete"
+                  ],
+                  "href": "http://www.espn.com/mlb/player/batvspitch/_/id/3155/troy-percival"
+                }
+              ],
+              "id": "3155",
+              "position": "RP",
+              "team": {
+                "id": "3"
+              },
+              "shortName": "T. Percival"
+            },
+            "displayName": "Saving Pitcher",
+            "name": "savingPitcher",
+            "team": {
+              "id": "3"
+            },
+            "abbreviation": "S",
+            "playerId": 3155
+          }
+        ]
+      }
+    }
+  ],
+  "season": {
+    "year": 2003,
+    "type": 2,
+    "slug": "regular-season"
+  },
+  "links": [
+    {
+      "isExternal": false,
+      "shortText": "Gamecast",
+      "rel": [
+        "summary",
+        "desktop",
+        "event"
+      ],
+      "language": "en-US",
+      "href": "http://www.espn.com/mlb/game/_/gameId/230831207",
+      "text": "Gamecast",
+      "isPremium": false
+    },
+    {
+      "isExternal": false,
+      "shortText": "Play-by-Play",
+      "rel": [
+        "pbp",
+        "desktop",
+        "event"
+      ],
+      "language": "en-US",
+      "href": "http://www.espn.com/mlb/playbyplay/_/gameId/230831207",
+      "text": "Play-by-Play",
+      "isPremium": false
+    },
+    {
+      "isExternal": false,
+      "shortText": "Recap",
+      "rel": [
+        "recap",
+        "desktop",
+        "event"
+      ],
+      "language": "en-US",
+      "href": "https://www.espn.com/mlb/recap?gameId=230831207",
+      "text": "Recap",
+      "isPremium": false
+    }
+  ],
+  "id": "230831207",
+  "shortName": "ANA @ KC",
+  "status": {
+    "period": 9,
+    "displayClock": "0:00",
+    "clock": 0,
+    "type": {
+      "name": "STATUS_FINAL",
+      "description": "Final",
+      "id": "3",
+      "state": "post",
+      "completed": true,
+      "detail": "Final",
+      "shortDetail": "Final"
+    }
+  }
+}
+Anaheim Angels at Kansas City Royals on 20030831 had no headline/recap available, skipping...
+None failed.
