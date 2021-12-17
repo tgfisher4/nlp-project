@@ -1,0 +1,111 @@
+Using cuda
+Bonds ' Bonds ' Bonds ' Giants ' win
+Bonds ' Bonds ' Bonds ' Giants ' win
+Bonds ' three - run homer lifts Phillies over Giants
+Bonds ' Bonds ' Bonds ' Bonds ' Giants
+A 's beat Giants in A 's win
+Giants ' Bonds ' HR in 10th
+Cubs ' Giants ' bats in win
+D - Backs ' Webb shuts down Giants
+Bonds ' Bonds ' Bonds ' Giants ' win
+Bonds ' Bonds ' Bonds ' Bonds ' HR
+[1] train_loss=1310485.3030266762 train_ppl=36.06637571700784 dev_ppl=26.44065174803422
+Bonds hits No . . in Giants ' win
+Bonds , Giants beat Brewers
+Bonds ' homer lifts Giants past Phillies
+Bonds hits No . .
+Zito 's arm , bat help Giants win
+Bonds 's single in 10th lifts Giants past Braves
+Cubs ' Bonds ' Giants ' Bonds ' win
+Bonds 's two - run homer lifts D - Backs past Giants
+Bonds 's two - run homer lifts Giants past Braves
+Bonds , Giants rally past Mets
+[2] train_loss=1120922.021100521 train_ppl=21.471666096249983 dev_ppl=22.971992792239217
+Bonds homers twice as Giants beat Padres
+Bonds hits No . six as Giants beat Brewers
+Bonds hits No . 17 as Giants top Phillies
+Bonds hits No . six as Giants top Dodgers
+Giants ' bats help win over A 's
+Giants ' bats help Braves win in 10
+Giants ' Zito wins first start , Giants top Cubs
+Giants ' Webb gets first win
+Giants ' bats help Braves win fifth straight
+Bonds hits No . 17 as Giants beat Mets
+[3] train_loss=1065698.2522320747 train_ppl=18.460758569160884 dev_ppl=21.660033699541767
+Bonds ' Bonds homers , Giants beat Padres
+Bonds ' two - run homer lifts Giants past Brewers
+Phillies ' Wells , bat help Giants top Phillies
+Bonds ' three - run homer lifts Giants past Dodgers
+A 's rally in 9th , win in ninth
+Bonds ' walk - off homer lifts Giants past Braves
+Cubs ' Cubs ' bats in win over Giants
+Bonds ' Webb , Giants beat D - Backs
+Braves ' four - run homer lifts Giants past Braves
+Bonds ' two - run homer lifts Giants past Mets
+[4] train_loss=1030921.7896232605 train_ppl=16.785279523209393 dev_ppl=21.744167832128934
+Bonds homers , but Giants win in San Diego win
+Bonds , Giants beat Brewers
+Giants ' Lee , gets first win in win
+Bonds hits No . 17 , but Giants win
+Giants ' Hudson wins first start in win over A 's
+Giants ' four - run double lifts Braves over Braves
+Cubs ' four - game win streak ends
+Bonds , Bonds help Giants end D - Backs ' win streak
+Braves ' four - run eighth lifts Giants past Braves
+Mets ' Bonds homers in win over Giants
+[5] train_loss=1005095.573492527 train_ppl=15.64019580566684 dev_ppl=21.01007037219897
+Bonds homers in 10th straight game
+Maddux tosses four - hitter as Giants top Brewers
+Phillies rally past Giants
+Dodgers rally in 9th to beat Giants
+Giants ' Lilly tosses 6 - hitter
+Braves rally in 10th to beat Giants
+Cubs ' bats combine to win over Giants
+Bonds hits No . 21 as Giants top D - Backs
+Marlins ' bats break out of first in NL West
+Mets ' Bonds hits No . 10 , but Giants win
+[6] train_loss=983482.0509405136 train_ppl=14.742164890763345 dev_ppl=21.206257337395364
+Bonds homers in 10th , Giants beat Padres
+Bonds hits No . 20 , but Giants win
+Giants ' Pirates ' bats again
+Bonds ' HR , Bonds hits No . 20 hits
+Giants ' Lilly tosses 3 - hitter
+Dodgers ' double in 10th lifts Giants over Giants
+Cubs ' bats back in win over Giants
+Bonds ' Schmidt wins No . 10
+Giants ' 8 - run homer lifts Braves over Braves
+Bonds hits No . 10 , but Giants top Mets
+[7] train_loss=964411.1620316505 train_ppl=13.992698259947181 dev_ppl=20.975642514808108
+Bonds homers twice as Giants beat Padres 8 - 0
+Bonds , Bonds power Giants past Brewers
+Phillies ' four - run double lifts Giants
+Bonds hits No . 20 , but Giants win
+A 's rally past A 's , 3 - 0
+Bonds hits HR in 10th , but Braves win in 10
+Cubs ' Sosa 's two - run HR lifts Giants
+Bonds , Schmidt lead Giants past D - Backs
+Giants ' Bonds homers in 9th , but Braves win
+Bonds hits No . 10 , but Mets win
+[8] train_loss=949382.8441543579 train_ppl=13.429041217016579 dev_ppl=20.751020129950135
+Bonds , Giants beat Padres in Bonds ' loss
+Bonds hits No . 20 , but Giants fall to Brewers
+Giants ' 3 - run homer lifts Phillies past Phillies
+Bonds hits No . ; Giants beat Dodgers
+A 's edge Giants to snap skid
+Braves edge Giants in 10 innings
+White Sox blank Giants to win fifth straight
+Bonds hits No . 15 as Giants top D - Backs
+Giants ' three - run homer lifts Braves past Braves
+Bonds hits No . 20 , but Giants fall to Mets
+[9] train_loss=934462.2195458412 train_ppl=12.891887419951194 dev_ppl=20.706550396660738
+Bonds homers , but Giants beat Padres
+Bonds hits No . 20 , but Giants top Brewers
+Pirates rally to beat Phillies
+Giants rally to beat Dodgers
+A 's win , complete sweep of Giants
+Braves ' magic number at 1 in 1
+Lee 's two - hitter helps Cubs avoid sweep
+Bonds hits No . 20 , but Giants top D - Backs
+Bonds hits No . 20 , but Braves top Giants
+Mets ' Bonds hits No . 20
+[10] train_loss=921347.2625098228 train_ppl=12.437510885178316 dev_ppl=20.937030670943695
